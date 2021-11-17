@@ -7,6 +7,8 @@
 3. Implémenter une version multi processeur en Python (https://docs.python.org/3/library/multiprocessing.html)
 4. Comment peut-on optimiser le traitement pour qu'il soit en mesure de faire le calcul sur de plus gros volumes de données ?
 
+    > Découper par groupe de noeud et enchainer les fonctions reduce jusqu'à n'avoir plus qu'un résultat
+
 ## Exercice 2
 
 Données en entrées : fichier contenant des données de capteur de température: id_capteur, timestamp, température
